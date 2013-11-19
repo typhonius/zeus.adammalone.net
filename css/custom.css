@@ -1,0 +1,36 @@
+/**
+ * Custom CSS for Zeus that isn't bootstrap
+ */
+html {
+  height: 100%;
+}
+body {
+  background: rgb(45, 45, 45);
+  min-height: 100%;
+}
+div, h2 {
+  color: #FFF;
+}
+.container {
+  min-height: 50%;
+}
+.logo {
+  height: 300px;
+  margin: 1em;
+  background: url('/images/freedom.png') no-repeat 50% 50%;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
